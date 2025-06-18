@@ -25,26 +25,16 @@ body {
 }
 
 header {
-  position: fixed;
-  top: 0;
   width: 100%;
-  height: 60px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  z-index: 1000;
-}
-
-nav ul {
-  display: flex;
-  list-style: none;
-  padding: 1rem;
-  margin: 0;
-  height: 100%;
-  align-items: center;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: static; 
+  top: auto;
+  z-index: auto;
 }
 
 main {
-  padding-top: 60px;
+  padding: 20px;
 }
 
 nav ul li {
